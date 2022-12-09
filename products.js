@@ -23,7 +23,7 @@ var products = [
 	{
 		name: "Tv cabinet",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["tv_cabinet_1.jpg", "tv_cabinet_2.jpg"],
 	},
@@ -65,7 +65,7 @@ var products = [
 	{
 		name: "Pressure cooker",
 		price: 15,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["pressure_cooker.jpg"],
 	},
@@ -171,7 +171,7 @@ var products = [
 	{
 		name: "air moisturizer",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["air_moisturizer.jpg"],
 	},
@@ -214,7 +214,7 @@ var products = [
 	{
 		name: "clothes dryer",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["clothes_dryer.jpg"],
 	},
@@ -347,7 +347,7 @@ var products = [
 	{
 		name: "Knives",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["knives.jpg"],
 	},
