@@ -37,7 +37,7 @@ var products = [
 	{
 		name: "Shoe rack",
 		price: 15,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["shoe_rack.jpg"],
 	},
@@ -51,7 +51,7 @@ var products = [
 	{
 		name: "Mixer",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["mixer.jpg"],
 	},
@@ -70,9 +70,9 @@ var products = [
 		photos: ["kitchen_appliances.jpg"],
 	},
 	{
-		name: "Hair dryers",
-		price: "10 each",
-		sold: false,
+		name: "Hair dryers (1 available)",
+		price: 10,
+		sold: true,
 		buyer: [],
 		photos: ["hair_dryers.jpg"],
 	},
@@ -178,7 +178,7 @@ var products = [
 	},
 	{
 		name: "laundry basket",
-		price: 5,
+		price: 10,
 		sold: false,
 		buyer: [],
 		photos: ["laundry_basket.jpg"],
@@ -264,7 +264,7 @@ var products = [
 	{
 		name: "Door hanger 2",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["door_hanger_2.jpg"],
 	},
