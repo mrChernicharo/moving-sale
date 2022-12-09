@@ -36,7 +36,7 @@ var products = [
 	},
 	{
 		name: "Shoe rack",
-		price: 5,
+		price: 15,
 		sold: false,
 		buyer: [],
 		photos: ["shoe_rack.jpg"],
@@ -63,9 +63,9 @@ var products = [
 		photos: ["kitchen_appliances.jpg"],
 	},
 	{
-		name: "Kitchen appliances - Sandwich Maker",
+		name: "Kitchen appliances - Panini presser",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["kitchen_appliances.jpg"],
 	},
@@ -225,13 +225,7 @@ var products = [
 		buyer: [],
 		photos: ["badminton.jpg"],
 	},
-	{
-		name: "BBQ kit",
-		price: 10,
-		sold: true,
-		buyer: [],
-		photos: ["bbq_kit.jpg"],
-	},
+
 	{
 		name: "5 Bowls",
 		price: 10,
@@ -277,7 +271,7 @@ var products = [
 	{
 		name: "Dough Mixer",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["dough_mixer_1.jpg", "dough_mixer_2.jpg"],
 	},
@@ -372,13 +366,7 @@ var products = [
 		buyer: [],
 		photos: ["plant_1.jpg"],
 	},
-	{
-		name: "Tiny fake plants kit",
-		price: 5,
-		sold: true,
-		buyer: [],
-		photos: ["plant_2.jpg"],
-	},
+
 	{
 		name: "More fake plants",
 		price: "5 each",
@@ -400,13 +388,7 @@ var products = [
 		buyer: [],
 		photos: ["pyrex.jpg"],
 	},
-	{
-		name: "Salad Dryer",
-		price: 5,
-		sold: false,
-		buyer: [],
-		photos: ["salad.jpg"],
-	},
+
 	{
 		name: "Scale",
 		price: 10,
@@ -469,5 +451,26 @@ var products = [
 		sold: true,
 		buyer: [],
 		photos: ["work_station_1.jpg"],
+	},
+	{
+		name: "Salad Dryer",
+		price: 5,
+		sold: true,
+		buyer: [],
+		photos: ["salad.jpg"],
+	},
+	{
+		name: "Tiny fake plants kit",
+		price: 5,
+		sold: true,
+		buyer: [],
+		photos: ["plant_2.jpg"],
+	},
+	{
+		name: "BBQ kit",
+		price: 10,
+		sold: true,
+		buyer: [],
+		photos: ["bbq_kit.jpg"],
 	},
 ];
