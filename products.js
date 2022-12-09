@@ -21,27 +21,6 @@ var products = [
 		photos: ["dinner_table_1.jpg", "dinner_table_2.jpg"],
 	},
 	{
-		name: "Tv cabinet",
-		price: 20,
-		sold: true,
-		buyer: [],
-		photos: ["tv_cabinet_1.jpg", "tv_cabinet_2.jpg"],
-	},
-	{
-		name: "Work station - Chair",
-		price: 20,
-		sold: true,
-		buyer: [],
-		photos: ["work_station_1.jpg"],
-	},
-	{
-		name: "Work station - Desk",
-		price: 20,
-		sold: true,
-		buyer: [],
-		photos: ["work_station_1.jpg"],
-	},
-	{
 		name: "Work station - Cabinet",
 		price: 10,
 		sold: false,
@@ -79,7 +58,7 @@ var products = [
 	{
 		name: "Kitchen appliances - Toaster",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["kitchen_appliances.jpg"],
 	},
@@ -136,7 +115,7 @@ var products = [
 	{
 		name: "Storage furniture",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["storage.jpg"],
 	},
@@ -373,7 +352,7 @@ var products = [
 		photos: ["painting.jpg"],
 	},
 	{
-		name: "PC rack",
+		name: "TV/PC rack",
 		price: 20,
 		sold: false,
 		buyer: [],
@@ -458,17 +437,37 @@ var products = [
 	},
 	{
 		name: "Thermic bottles",
-		price: 10,
+		price: "5 each",
 		sold: false,
 		buyer: [],
 		photos: ["thermic_bottles.jpg"],
 	},
-
 	{
 		name: "Water jar",
 		price: 10,
 		sold: false,
 		buyer: [],
 		photos: ["water_jar.jpg"],
+	},
+	{
+		name: "Tv cabinet",
+		price: 20,
+		sold: true,
+		buyer: [],
+		photos: ["tv_cabinet_1.jpg", "tv_cabinet_2.jpg"],
+	},
+	{
+		name: "Work station - Chair",
+		price: 20,
+		sold: true,
+		buyer: [],
+		photos: ["work_station_1.jpg"],
+	},
+	{
+		name: "Work station - Desk",
+		price: 20,
+		sold: true,
+		buyer: [],
+		photos: ["work_station_1.jpg"],
 	},
 ];
