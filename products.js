@@ -30,14 +30,14 @@ var products = [
 	{
 		name: "Work station - Chair",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["work_station_1.jpg"],
 	},
 	{
 		name: "Work station - Desk",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["work_station_1.jpg"],
 	},
