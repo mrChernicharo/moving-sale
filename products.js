@@ -235,7 +235,7 @@ var products = [
 	{
 		name: "Volleyball",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["volleyball.jpg"],
 	},
@@ -249,7 +249,7 @@ var products = [
 	{
 		name: "BBQ kit",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["bbq_kit.jpg"],
 	},
@@ -396,7 +396,7 @@ var products = [
 	{
 		name: "Tiny fake plants kit",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["plant_2.jpg"],
 	},
