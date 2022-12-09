@@ -23,14 +23,14 @@ var products = [
 	{
 		name: "Work station - Cabinet",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["work_station_cabinet.jpg"],
 	},
 	{
 		name: "Swivel stools",
 		price: 15,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["swivel_stools_1.jpg", "swivel_stools_2.jpg"],
 	},
@@ -93,7 +93,7 @@ var products = [
 	{
 		name: "White Lamp",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["lamp_white.jpg"],
 	},
@@ -122,7 +122,7 @@ var products = [
 	{
 		name: "nightstand 1",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["nightstands_1.jpg"],
 	},
@@ -143,7 +143,7 @@ var products = [
 	{
 		name: "mirror #2",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["mirror_2.jpg"],
 	},
@@ -157,7 +157,7 @@ var products = [
 	{
 		name: "drawer chest",
 		price: 80,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["drawer_chest_1.jpg", "drawer_chest_2.jpg"],
 	},
@@ -172,21 +172,21 @@ var products = [
 	{
 		name: "iron",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["iron.jpg"],
 	},
 	{
 		name: "laundry basket",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["laundry_basket.jpg"],
 	},
 	{
 		name: "bathroom cabinet",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["bathroom_cabinet_1.jpg", "bathroom_cabinet_2.jpg"],
 	},
@@ -229,7 +229,7 @@ var products = [
 	{
 		name: "5 Bowls",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["bowls.jpg"],
 	},
@@ -243,7 +243,7 @@ var products = [
 	{
 		name: "Chinese Checkers",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["chinese.jpg"],
 	},
@@ -257,7 +257,7 @@ var products = [
 	{
 		name: "Door hanger",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["door_hanger_1.jpg"],
 	},
@@ -297,7 +297,7 @@ var products = [
 		photos: ["halloween.jpg"],
 	},
 	{
-		name: "Wood Hangers (20 count)",
+		name: "Wood Hangers (15 count)",
 		price: 20,
 		sold: false,
 		buyer: [],
@@ -313,7 +313,7 @@ var products = [
 	{
 		name: "Kitchen kit",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["kitchen_kit.jpg"],
 	},
@@ -334,14 +334,14 @@ var products = [
 	{
 		name: "Monitor 24'",
 		price: 100,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["monitor.jpg"],
 	},
 	{
 		name: "Pollock Painting",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["painting.jpg"],
 	},
@@ -377,14 +377,14 @@ var products = [
 	{
 		name: "Real Plants",
 		price: "5 each",
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["plants_4.jpg"],
 	},
 	{
 		name: "Pyrex",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["pyrex.jpg"],
 	},
@@ -413,7 +413,7 @@ var products = [
 	{
 		name: "Small Lamp 2",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["small_lamp_2.jpg"],
 	},
