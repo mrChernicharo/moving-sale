@@ -113,6 +113,13 @@ var products = [
 		photos: ["bed.jpg"],
 	},
 	{
+		name: "Drawer cabinet",
+		price: 30,
+		sold: false,
+		buyer: [],
+		photos: ["drawer_cabinet.jpeg"],
+	},
+	{
 		name: "Storage furniture",
 		price: 10,
 		sold: true,
