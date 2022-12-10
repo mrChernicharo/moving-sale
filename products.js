@@ -473,4 +473,4 @@ var products = [
 		buyer: [],
 		photos: ["bbq_kit.jpg"],
 	},
-];
+].sort((a, b) => (a.sold ? 1 : 0) - (b.sold ? 1 : 0));
