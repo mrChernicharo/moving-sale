@@ -16,7 +16,7 @@ var products = [
 	{
 		name: "Dinner Table",
 		price: 80,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["dinner_table_1.jpg", "dinner_table_2.jpg"],
 	},
@@ -129,21 +129,21 @@ var products = [
 	{
 		name: "nightstand 2",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["nightstands_2.jpg"],
 	},
 	{
 		name: "mirror #1",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["mirror_1.jpg"],
 	},
 	{
 		name: "mirror #2",
 		price: 20,
-		sold: true,
+		sold: false,
 		buyer: [],
 		photos: ["mirror_2.jpg"],
 	},
@@ -362,7 +362,7 @@ var products = [
 	{
 		name: "Fake Plant 1",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["plant_1.jpg"],
 	},
@@ -370,7 +370,7 @@ var products = [
 	{
 		name: "More fake plants",
 		price: "5 each",
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["plants_3.jpg"],
 	},
@@ -406,7 +406,7 @@ var products = [
 	{
 		name: "Small Lamp 1",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["small_lamp_1.jpg"],
 	},
