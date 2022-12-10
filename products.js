@@ -93,7 +93,7 @@ var products = [
 	{
 		name: "Bed",
 		price: 100,
-		sold: false,
+		sold: true,
 		photos: ["bed.jpg"],
 	},
 	{
