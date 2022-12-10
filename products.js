@@ -9,7 +9,7 @@ var products = [
 	{
 		name: "Couch",
 		price: 100,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["couch_2.jpg", "couch_3.jpg", "couch_4.jpg", "couch_5.jpg"],
 	},
@@ -86,7 +86,7 @@ var products = [
 	{
 		name: "Black Lamp",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["lamp_black.jpg"],
 	},
@@ -164,7 +164,7 @@ var products = [
 	{
 		name: "bookshelf",
 		price: 20,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["bookshelf.jpg"],
 	},
@@ -200,7 +200,7 @@ var products = [
 	{
 		name: "Black bike",
 		price: 150,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["bike_black_1.jpg", "bike_black_2.jpg"],
 	},
@@ -236,7 +236,7 @@ var products = [
 	{
 		name: "Butter dish",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["butter.jpg"],
 	},
@@ -278,7 +278,7 @@ var products = [
 	{
 		name: "Dough Kneader",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["dough.jpg"],
 	},
@@ -327,7 +327,7 @@ var products = [
 	{
 		name: "US Map",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["map.jpg"],
 	},
@@ -355,7 +355,7 @@ var products = [
 	{
 		name: "Pic-nic blanket",
 		price: 5,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["picnic.jpg"],
 	},
@@ -392,7 +392,7 @@ var products = [
 	{
 		name: "Scale",
 		price: 10,
-		sold: false,
+		sold: true,
 		buyer: [],
 		photos: ["scale.jpg"],
 	},
@@ -425,7 +425,7 @@ var products = [
 		photos: ["thermic_bottles.jpg"],
 	},
 	{
-		name: "Water jar",
+		name: "Juice jar",
 		price: 10,
 		sold: false,
 		buyer: [],
