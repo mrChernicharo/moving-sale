@@ -4,15 +4,22 @@ const monitorLink =
 const products = [
 	{
 		name: "Wide Monitor",
-		price: 200,
+		price: 190,
 		sold: false,
 		photos: ["monitor_1.jpeg", "monitor_0.png", "monitor_2.jpeg", "monitor_3.jpeg"],
+		description:
+			"This is a 34.1' huuuuge HD monitor! State-of-art slightly curved screen. Built-in camera on the top. Only 5 months of usage (My company gave it to me).",
 	},
 	{
 		name: "Convertible Sofa",
-		price: 40,
+		price: 30,
 		sold: false,
-		photos: ["convertible_sofa_1.jpg", "convertible_sofa_3.jpg"],
+		photos: [
+			"convertible_sofa_2.jpeg",
+			"convertible_sofa_1.jpg",
+			"convertible_sofa_3.jpg",
+			"convertible_sofa_4.jpeg",
+		],
 	},
 	{
 		name: "Bed",
@@ -28,9 +35,15 @@ const products = [
 	},
 	{
 		name: "Red bike",
-		price: 130,
+		price: 120,
 		sold: false,
 		photos: ["bike_red_1.jpg", "bike_red_2.jpg"],
+	},
+	{
+		name: "Work Station (Chair)",
+		price: 10,
+		sold: false,
+		photos: ["work_station_1.jpeg", "work_station_2.jpeg"],
 	},
 	{
 		name: "Fruit bowl",
@@ -39,16 +52,10 @@ const products = [
 		photos: ["fruit_bowl.jpg"],
 	},
 	{
-		name: "Wood Hangers (15 count)",
+		name: "Mirror",
 		price: 10,
 		sold: false,
-		photos: ["hangers_1.jpg"],
-	},
-	{
-		name: "Hangers (8 count)",
-		price: 10,
-		sold: false,
-		photos: ["hangers_3.jpg", "hangers_2.jpg"],
+		photos: ["mirror.jpeg", "mirror_2.jpeg"],
 	},
 	{
 		name: "TV/PC rack",
@@ -56,26 +63,61 @@ const products = [
 		sold: false,
 		photos: ["pc_rack.jpg"],
 	},
-
 	{
-		name: "Silverware",
-		price: 5,
+		name: "Lamp",
+		price: 10,
 		sold: false,
-		photos: ["silverware.jpg"],
+		photos: ["black_lamp.jpeg", "black_lamp_2.jpeg"],
 	},
-
 	{
-		name: "Thermic bottles",
+		name: "Office organizer",
+		price: 2,
+		sold: false,
+		photos: ["dime_organizer.jpeg"],
+		description: "Coins included!",
+	},
+	{
+		name: "Cute Flasks",
+		price: 2,
+		sold: false,
+		photos: ["bathroom_recipients.jpeg"],
+	},
+	{
+		name: "Kitten Mugs",
+		price: "2 pair",
+		sold: false,
+		photos: ["kitten_mugs.jpeg"],
+	},
+	{
+		name: "Wood Hangers (15 count)",
 		price: "1 each",
 		sold: false,
-		photos: ["thermic_bottles.jpg"],
+		photos: ["hangers_1.jpg"],
+	},
+	{
+		name: "Hangers (8 count)",
+		price: "3 bundle",
+		sold: false,
+		photos: ["hangers_3.jpg", "hangers_2.jpg"],
 	},
 	{
 		name: "Juice/Water jar",
 		description: "High quality glass bottle",
 		price: 5,
 		sold: false,
-		photos: ["water_jar.jpg"],
+		photos: ["water_jar.jpg", "water_jar_2.jpeg"],
+	},
+	{
+		name: "Silverware",
+		price: 3,
+		sold: false,
+		photos: ["silverware.jpg"],
+	},
+	{
+		name: "Thermic bottles",
+		price: "1 each",
+		sold: false,
+		photos: ["thermic_bottles.jpg"],
 	},
 ];
 // .sort((a, b) => (a.sold ? 1 : 0) - (b.sold ? 1 : 0));
@@ -105,6 +147,12 @@ products.forEach(prod => {
 	const price = document.createElement("p");
 	price.textContent = `$${parseInt(prod.price) > 0 ? prod.price : "FREE!"}`;
 	li.append(price);
+
+	if (prod.description && !prod.sold) {
+		const desc = document.createElement("small");
+		desc.textContent = prod.description;
+		li.append(desc);
+	}
 
 	const imgWrapper = document.createElement("div");
 
