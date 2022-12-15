@@ -1,267 +1,46 @@
-var products = [
+const monitorLink =
+	"https://www.amazon.com/Dell-C3422WE-Curved-Screen-Monitor/dp/B08ZJP88D2/ref=asc_df_B08ZJP88D2/?tag=hyprod-20&linkCode=df0&hvadid=507731305156&hvpos=&hvnetw=g&hvrand=12146915242419025841&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1014895&hvtargid=pla-1238742782815&psc=1";
+
+const products = [
 	{
-		name: "TV",
-		price: 150,
-		sold: true,
-		photos: ["tv.jpg"],
-	},
-	{
-		name: "Couch",
-		price: 100,
-		sold: true,
-		photos: ["couch_2.jpg", "couch_3.jpg", "couch_4.jpg", "couch_5.jpg"],
-	},
-	{
-		name: "Dinner Table",
-		price: 80,
-		sold: true,
-		photos: ["dinner_table_1.jpg", "dinner_table_2.jpg"],
-	},
-	{
-		name: "Work station - Cabinet",
-		price: 10,
-		sold: true,
-		photos: ["work_station_cabinet.jpg"],
-	},
-	{
-		name: "Swivel stools",
-		price: 15,
-		sold: true,
-		photos: ["swivel_stools_1.jpg", "swivel_stools_2.jpg"],
-	},
-	{
-		name: "Shoe rack",
-		price: 15,
-		sold: true,
-		photos: ["shoe_rack.jpg"],
-	},
-	{
-		name: "Pressure cooker",
-		price: 15,
-		sold: true,
-		photos: ["pressure_cooker.jpg"],
-	},
-	{
-		name: "Mixer",
-		price: 10,
-		sold: true,
-		photos: ["mixer.jpg"],
-	},
-	{
-		name: "Kitchen appliances - Toaster",
-		price: 10,
-		sold: true,
-		photos: ["kitchen_appliances.jpg"],
-	},
-	{
-		name: "Kitchen appliances - Panini presser",
-		price: 10,
-		sold: true,
-		photos: ["kitchen_appliances.jpg"],
-	},
-	{
-		name: "Hair dryers (1 available)",
-		price: 10,
-		sold: true,
-		photos: ["hair_dryers.jpg"],
-	},
-	{
-		name: "Vacuum cleaner",
-		price: 15,
-		sold: true,
-		photos: ["vacuum_1.jpg", "vacuum_2.jpg"],
-	},
-	{
-		name: "Black Lamp",
-		price: 20,
-		sold: true,
-		photos: ["lamp_black.jpg"],
-	},
-	{
-		name: "White Lamp",
-		price: 20,
-		sold: true,
-		photos: ["lamp_white.jpg"],
+		name: "Wide Monitor",
+		price: 200,
+		sold: false,
+		photos: ["monitor_1.jpeg", "monitor_0.png", "monitor_2.jpeg", "monitor_3.jpeg"],
 	},
 	{
 		name: "Convertible Sofa",
-		price: 80,
+		price: 40,
 		sold: false,
 		photos: ["convertible_sofa_1.jpg", "convertible_sofa_3.jpg"],
 	},
-
 	{
 		name: "Bed",
-		price: 100,
-		sold: true,
+		price: 50,
+		sold: false,
 		photos: ["bed.jpg"],
 	},
 	{
 		name: "Drawer cabinet",
-		price: 30,
+		price: 10,
 		sold: false,
 		photos: ["drawer_cabinet.jpeg"],
 	},
 	{
-		name: "Storage furniture",
-		price: 10,
-		sold: true,
-		photos: ["storage.jpg"],
-	},
-	{
-		name: "nightstand 1",
-		price: 10,
-		sold: true,
-		photos: ["nightstands_1.jpg"],
-	},
-	{
-		name: "nightstand 2",
-		price: 10,
-		sold: true,
-		photos: ["nightstands_2.jpg"],
-	},
-	{
-		name: "mirror #1",
-		price: 20,
-		sold: true,
-		photos: ["mirror_1.jpg"],
-	},
-	{
-		name: "mirror #2",
-		price: 20,
-		sold: false,
-		photos: ["mirror_2.jpg"],
-	},
-	{
-		name: "air moisturizer",
-		price: 10,
-		sold: true,
-		photos: ["air_moisturizer.jpg"],
-	},
-	{
-		name: "drawer chest",
-		price: 80,
-		sold: true,
-		photos: ["drawer_chest_1.jpg", "drawer_chest_2.jpg"],
-	},
-	{
-		name: "bookshelf",
-		price: 20,
-		sold: true,
-		photos: ["bookshelf.jpg"],
-	},
-
-	{
-		name: "iron",
-		price: 20,
-		sold: true,
-		photos: ["iron.jpg"],
-	},
-	{
-		name: "laundry basket",
-		price: 10,
-		sold: true,
-		photos: ["laundry_basket.jpg"],
-	},
-	{
-		name: "bathroom cabinet",
-		price: 5,
-		sold: true,
-		photos: ["bathroom_cabinet_1.jpg", "bathroom_cabinet_2.jpg"],
-	},
-	{
-		name: "clothes dryer",
-		price: 5,
-		sold: true,
-		photos: ["clothes_dryer.jpg"],
-	},
-	{
-		name: "Black bike",
-		price: 150,
-		sold: true,
-		photos: ["bike_black_1.jpg", "bike_black_2.jpg"],
-	},
-	{
 		name: "Red bike",
-		price: 150,
+		price: 130,
 		sold: false,
 		photos: ["bike_red_1.jpg", "bike_red_2.jpg"],
 	},
 	{
-		name: "Volleyball",
-		price: 5,
-		sold: true,
-		photos: ["volleyball.jpg"],
-	},
-	{
-		name: "Badminton",
-		price: 10,
-		sold: false,
-		photos: ["badminton.jpg"],
-	},
-	{
-		name: "5 Bowls",
-		price: 10,
-		sold: true,
-		photos: ["bowls.jpg"],
-	},
-	{
-		name: "Butter dish",
-		price: 5,
-		sold: true,
-		photos: ["butter.jpg"],
-	},
-	{
-		name: "Chinese Checkers",
-		price: 5,
-		sold: true,
-		photos: ["chinese.jpg"],
-	},
-	{
-		name: "Desk Lamp",
-		price: 5,
-		sold: true,
-		photos: ["desk_lamp.jpg"],
-	},
-	{
-		name: "Door hanger",
-		price: 5,
-		sold: true,
-		photos: ["door_hanger_1.jpg"],
-	},
-	{
-		name: "Door hanger 2",
-		price: 5,
-		sold: true,
-		photos: ["door_hanger_2.jpg"],
-	},
-	{
-		name: "Dough Mixer",
-		price: 10,
-		sold: true,
-		photos: ["dough_mixer_1.jpg", "dough_mixer_2.jpg"],
-	},
-	{
-		name: "Dough Kneader",
-		price: 5,
-		sold: true,
-		photos: ["dough.jpg"],
-	},
-	{
 		name: "Fruit bowl",
-		price: 5,
+		price: 3,
 		sold: false,
 		photos: ["fruit_bowl.jpg"],
 	},
 	{
-		name: "Halloween Kit",
-		price: 5,
-		sold: false,
-		photos: ["halloween.jpg"],
-	},
-	{
 		name: "Wood Hangers (15 count)",
-		price: 20,
+		price: 10,
 		sold: false,
 		photos: ["hangers_1.jpg"],
 	},
@@ -272,143 +51,74 @@ var products = [
 		photos: ["hangers_3.jpg", "hangers_2.jpg"],
 	},
 	{
-		name: "Kitchen kit",
-		price: 5,
-		sold: true,
-		photos: ["kitchen_kit.jpg"],
-	},
-	{
-		name: "Knives",
-		price: 10,
-		sold: true,
-		photos: ["knives.jpg"],
-	},
-	{
-		name: "US Map",
-		price: 5,
-		sold: true,
-		photos: ["map.jpg"],
-	},
-	{
-		name: "Monitor 24'",
-		price: 100,
-		sold: true,
-		photos: ["monitor.jpg"],
-	},
-	{
-		name: "Pollock Painting",
-		price: 10,
-		sold: true,
-		photos: ["painting.jpg"],
-	},
-	{
 		name: "TV/PC rack",
-		price: 20,
+		price: 0,
 		sold: false,
 		photos: ["pc_rack.jpg"],
 	},
-	{
-		name: "Pic-nic blanket",
-		price: 5,
-		sold: true,
-		photos: ["picnic.jpg"],
-	},
-	{
-		name: "Fake Plant 1",
-		price: 5,
-		sold: true,
-		photos: ["plant_1.jpg"],
-	},
 
-	{
-		name: "More fake plants",
-		price: "5 each",
-		sold: true,
-		photos: ["plants_3.jpg"],
-	},
-	{
-		name: "Real Plants",
-		price: "5 each",
-		sold: true,
-		photos: ["plants_4.jpg"],
-	},
-	{
-		name: "Pyrex",
-		price: 5,
-		sold: true,
-		photos: ["pyrex.jpg"],
-	},
-
-	{
-		name: "Scale",
-		price: 10,
-		sold: true,
-		photos: ["scale.jpg"],
-	},
 	{
 		name: "Silverware",
-		price: 10,
+		price: 5,
 		sold: false,
 		photos: ["silverware.jpg"],
 	},
-	{
-		name: "Small Lamp 1",
-		price: 10,
-		sold: true,
-		photos: ["small_lamp_1.jpg"],
-	},
-	{
-		name: "Small Lamp 2",
-		price: 10,
-		sold: true,
-		photos: ["small_lamp_2.jpg"],
-	},
+
 	{
 		name: "Thermic bottles",
-		price: "5 each",
+		price: "1 each",
 		sold: false,
 		photos: ["thermic_bottles.jpg"],
 	},
 	{
-		name: "Juice jar",
-		price: 10,
+		name: "Juice/Water jar",
+		description: "High quality glass bottle",
+		price: 5,
 		sold: false,
 		photos: ["water_jar.jpg"],
 	},
-	{
-		name: "Tv cabinet",
-		price: 20,
-		sold: true,
-		photos: ["tv_cabinet_1.jpg", "tv_cabinet_2.jpg"],
-	},
-	{
-		name: "Work station - Chair",
-		price: 20,
-		sold: true,
-		photos: ["work_station_1.jpg"],
-	},
-	{
-		name: "Work station - Desk",
-		price: 20,
-		sold: true,
-		photos: ["work_station_1.jpg"],
-	},
-	{
-		name: "Salad Dryer",
-		price: 5,
-		sold: true,
-		photos: ["salad.jpg"],
-	},
-	{
-		name: "Tiny fake plants kit",
-		price: 5,
-		sold: true,
-		photos: ["plant_2.jpg"],
-	},
-	{
-		name: "BBQ kit",
-		price: 10,
-		sold: true,
-		photos: ["bbq_kit.jpg"],
-	},
-].sort((a, b) => (a.sold ? 1 : 0) - (b.sold ? 1 : 0));
+];
+// .sort((a, b) => (a.sold ? 1 : 0) - (b.sold ? 1 : 0));
+
+console.log(products);
+
+const list = document.querySelector("#list");
+
+products.forEach(prod => {
+	const li = document.createElement("li");
+
+	const titleDiv = document.createElement("div");
+	titleDiv.classList.add("title-div");
+	const title = document.createElement("p");
+	title.textContent = prod.name;
+
+	titleDiv.append(title);
+
+	if (prod.sold) {
+		const span = document.createElement("span");
+		span.textContent = "(SOLD ✅)";
+		titleDiv.append(span);
+		title.classList.add("sold");
+	}
+	li.append(titleDiv);
+
+	const price = document.createElement("p");
+	price.textContent = `$${parseInt(prod.price) > 0 ? prod.price : "FREE!"}`;
+	li.append(price);
+
+	const imgWrapper = document.createElement("div");
+
+	prod.photos.forEach((photo, i) => {
+		const img = document.createElement("img");
+		img.src = `images/${photo}`;
+		imgWrapper.append(img);
+		imgWrapper.classList.add("img-wrapper");
+
+		if (i === 1) {
+			imgWrapper.classList.add("grid-container");
+		}
+	});
+
+	li.append(imgWrapper);
+	list.append(li);
+});
